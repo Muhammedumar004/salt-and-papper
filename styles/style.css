@@ -1,0 +1,757 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+@font-face {
+    font-family: logo font;
+    src: url(consult/fonts/futurak.ttf);
+}
+/* navbar start */
+.navbar{
+    border-bottom:  1px solid white;
+    padding: 0px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar-logo{
+    width: 185px;
+    padding: 10px;
+}
+.navbar-items{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    
+}
+.navbar-items a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+}
+.navbar-button{
+    background-color:transparent;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.btn{
+    background-color:#ed1c24;
+    border: none;
+}
+.fa-arrow-right{
+    background-color: white;
+    padding: 5px !important;
+    font-size: 20px !important;
+    color: #ed1c24 !important;
+    border-radius: 50px !important;
+    
+}
+.manu-bar{
+    display: none;
+}
+/* navbar end */
+
+/* main start */
+/* banner start */
+.baner{ width: 100%;}
+/* banner end */
+/* all brands start */
+  .brands-mainn {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+/* brands-text start */
+.Welcome{
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 80px;
+}
+.futurak{
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: logo font;
+} 
+.brands-text p {
+    color: #ffffffb3;
+    text-align: center;
+    margin: 20px;
+    
+}    
+/* brands-text end */
+  
+/* brands-content start */
+.brand1{
+    height: 130px;
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 5px;
+}
+.brand-btn{
+    background-color:transparent;
+    color: #ffffff;
+    padding: 10px 35px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.brands-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 10px 60px 80px 60px;
+    /* flex-wrap: wrap; */
+}
+.brand-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/* brands-contant end */
+
+
+/* all Franchise starts  */
+.franchise{
+    width: 100%;
+    background-color: #292929;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.franchise-text{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.franchise-text p{
+    color: #ffffffb3;
+    text-align: center;
+    margin: 20px;
+
+}
+.fa-solid.fa-location-dot {
+    color: #ffffffb3;
+    font-size: 24px;
+    padding: 0px 10px;
+}
+.fa-solid{
+    color: #ffffffb3;
+    font-size: 24px;
+    padding: 0px 10px;
+}
+.franchise-content-ISLAMABAD{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    margin-top: 40px;
+}
+.franchise-content-ISLAMABAD p{
+    color: #ed1c24;
+    letter-spacing: 10px;
+}
+.franchise-content-ISLAMABAD h4 {
+    color: #ffffffb3;
+    margin-top: 20px;
+
+}
+
+.franchise-content-FAISALABAD{
+    display: flex;
+    gap: 150px;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+.franchise-content-FAISALABAD p{
+    color: #ed1c24;
+    letter-spacing: 10px;
+}
+.franchise-content-FAISALABAD h4{
+    color: #ffffffb3;
+    /* margin-top: 20px; */
+
+} 
+
+.franchise-content-Bahawalpur{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    margin-top: 40px;
+}
+.franchise-content-Bahawalpur p{
+    color: #ed1c24;
+    letter-spacing: 10px;
+}
+.franchise-content-Bahawalpur h4 {
+    color: #ffffffb3;
+    margin-top: 20px;
+}
+/* all Franchise end  */
+
+/*  Franchise Express start*/
+.logo{
+    font-size: 60px;
+}
+.Franchise-Express-container{
+    background-color: black;
+}
+.Franchise-Express-container h1{
+    margin-top: 60px;
+    text-align: center;
+   font-family: serif;
+   font-size: 50px;
+}
+.Franchise-Express-container p{
+    color: #c70808;
+    letter-spacing: 5px;
+}
+.Franchise-Express-container h5{
+    color: #ffffffb3;
+}
+.for-flx {
+    /* margin-bottom: 20px;
+    margin-top: 50px; */
+    padding: 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.express-img{
+    width: 400px;
+}
+.Franchise-Express-container-content{
+    margin:20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/* franvchice  express end */
+
+
+/* franchise  village start*/
+.Franchise-village-contaner h1{
+    margin-top: 60px;
+    text-align: center;
+   font-family: serif;
+   font-size: 50px;
+}
+.Franchise-village-contaner-content h2{
+    font-size: 30px;
+    font-weight: medium;
+    
+}
+.village-logo{
+    font-size: 30px;
+}
+.Franchise-village-contaner-content{
+    display: flex;
+    margin: 50px 0px;
+    gap: 40px;
+    align-items: center;
+}
+.Franchise-village-contaner-content p{
+    color: #ed1c24;
+    letter-spacing: 10px;
+}
+.GUJRANWALA{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.village-btn{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 40px;
+    width: 180px;
+    background-color: #00a600;
+    border: none;
+    color: #ffffff;
+}
+.village-btn-icon{
+    background-color: white;
+    color: #00a600 !important;
+    font-size: 20px;
+    padding: 10px;
+}
+/* franchise  village end*/
+
+
+/* opening soon start */
+.opening-soon-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0px 80px 0px;
+    padding: 0px 60px;
+}
+.opening-soon{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.opening-soon-h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+    font-family: serif;
+    font-weight: lighter;
+}
+.opening-soon-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    width: 400px;
+    color: #000000;
+    border-radius: 5px;
+    padding: 29px;
+}
+.opening-soon-container p{
+    color: #ed1c24;
+    letter-spacing: 10px;
+    font-size: 10px;
+}
+.logo-opening{
+    font-size: 25px;
+}
+.opening-soon-h4{
+    line-height: 40px;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+}
+/* opening soon end */
+
+
+/* social feed start */
+.social-feed{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+.social-feed img{
+    width: 19%;
+    height: 270px;
+}
+.social-feed-h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+    font-family: serif;
+
+}
+.photos{
+    background-color: #292929;
+    padding: 30px 0px 30px 0px;
+}
+/* social feed end */
+/* main end */
+
+
+/* footer start */
+footer{
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
+.footer-content img{
+    width: 150px;
+}
+.footer-content p{
+    line-height: 20px;
+    color: #ffffffb3;
+    cursor: pointer;
+}
+.forfont{
+ font-family: serif;
+ padding-bottom:30px ;
+ font-size: larger;
+}
+.contact-us{
+    width: 300px;
+}
+.address{
+    color: #ffffffb3;
+    line-height: 20px;
+}
+li{
+    list-style-type: none;
+    line-height: 40px;
+    color: #ffffffb3;
+    cursor: pointer;
+}
+.follow-us i{
+    background-color: #ed1c24;
+    padding: 15px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: medium;
+
+}
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+.follow-us img{
+    width: 150px;
+}
+ 
+/* footer end */
+
+
+/* about section start */
+.about-section-main{
+    padding: 60px 100px;
+}
+.about-section-intoduction{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-section-intoduction h1{
+  text-align: center;
+}
+.about-section-for-serif{
+  font-family: serif;
+}
+.about-section-intoduction p{
+  line-height: 25px;
+  text-align: center;
+  color: #ffffffb3;
+}
+.about-section-intoduction-image-text{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.about-section-intoduction-image-text p{
+      color: #ffffffb3;
+}
+.resttorent-image{
+    width: 50%;
+    border-radius: 5px;
+}
+.colorchange{
+    background-color: #000000;
+}
+.about-content-five{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.about-content-five p{
+    color: #ffffffb3;
+}
+  
+/* about section end */
+
+
+
+/* publication section start */
+.books{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.books img{
+    width: 50%;
+    border: 1px solid #ffffffb3;
+}
+.text-center{
+    text-align: center;
+}
+.text-center p{
+    color: #ffffffb3;
+}
+/* publication section end */
+
+
+/* grt a frenchise section start */
+.get-a-frenchise-h1{
+    font-family: serif;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+}
+.get-a-frenchise-main{
+    margin:30px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Get-franchise{
+    padding: 0px 10px;
+    gap: 10PX;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+label{
+    color: #ffffffb3;
+}
+input{
+    border: none;
+    border-radius: 5PX;
+    padding: 10PX;
+    font-size: large;
+    font-weight: bold;
+    width: 600PX;
+    height: 50PX;
+    /* text-align: left; */
+
+}
+.submit{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffe600;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 150px; 
+    bottom: 20px;
+    cursor: pointer;
+
+}
+/* grt a frenchise section end */
+
+
+
+
+/* media query start */
+@media  (max-width: 768px) {
+    .navbar{
+        padding: 0px 25px;
+    }
+    .navbar-items{
+        display: none;
+    }
+    .manu-bar{
+        display: block;
+    }
+    .brands-content{
+       overflow: scroll;
+    }
+    .franchise-content-Bahawalpur{
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        object-fit: cover;
+        
+    }
+    .franchise-content-ISLAMABAD{
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        object-fit: cover;
+        
+    }
+    .franchise-content-FAISALABAD{
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        object-fit: cover;
+        
+    }
+    .for-flx{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .social-feed {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+        padding: 10px 0;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Firefox */
+    }
+    
+    .social-feed::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+    
+    .social-feed img {
+        flex: 0 0 auto;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+ }
+ /* media query end  */
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .navbar {
+        padding: 0px 40px;
+    }
+    
+    .brands-content {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .franchise-content-ISLAMABAD,
+    .franchise-content-FAISALABAD,
+    .franchise-content-Bahawalpur {
+        gap: 50px;
+    }
+    
+    .express-img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        padding: 0px 20px;
+    }
+    
+    .brands-content {
+        padding: 10px 20px 40px 20px;
+    }
+    
+    .franchise-content-ISLAMABAD,
+    .franchise-content-FAISALABAD,
+    .franchise-content-Bahawalpur {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .franchise-content-FAISALABAD {
+        margin-left: 0;
+    }
+    
+    .franchise-img {
+        width: 100%;
+        max-width: 500px;
+    }
+    
+    .for-flx {
+        padding: 0px 20px;
+    }
+    
+    .express-img {
+        width: 300px;
+    }
+    
+    .Franchise-village-contaner-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .opening-soon-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-items {
+        display: none;
+    }
+    
+    .manu-bar {
+        display: block;
+        font-size: 24px;
+    }
+    
+    .Welcome {
+        font-size: 24px;
+    }
+    
+    .futurak {
+        font-size: 40px;
+    }
+    
+    .brand1 {
+        width: 200px;
+        height: 100px;
+    }
+    
+    .express-img {
+        width: 250px;
+    }
+    
+    .opening-soon-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .social-feed {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-logo {
+        width: 150px;
+    }
+    
+    .brand1 {
+        width: 150px;
+        height: 80px;
+    }
+    
+    .brand-btn {
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+    
+    .express-img {
+        width: 200px;
+    }
+    
+    .social-feed {
+        grid-template-columns: 1fr;
+    }
+    
+    .follow-us img {
+        width: 120px;
+    }
+    
+    .social-feed img {
+        width: 200px;
+        height: 200px;
+    }
+}
