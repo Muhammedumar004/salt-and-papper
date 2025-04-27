@@ -174,10 +174,12 @@ body{
 }
 
 .franchise-content-FAISALABAD{
+    justify-content: space-evenly;
     display: flex;
+    flex-direction: row-reverse;
     gap: 150px;
     margin-top: 40px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
 }
 .franchise-content-FAISALABAD p{
     color: #ed1c24;
